@@ -1,0 +1,449 @@
+*{
+      margin: 0;
+      padding: 0;
+}
+.ql-container.ql-snow{
+      border: 0px !important;
+}
+body{
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #ffffff;
+}
+.navbar-fixed-top .navbar-collapse{
+      max-height: 600px !important;
+      border-top: 0px;
+      border-bottom: 1px solid lightgray;
+      border-radius: 10px;
+      background: #ffffff;
+}
+.navbar-default{
+      background: #ffffff !important;
+}
+@media(max-width:767px){
+      #top_list{
+            box-shadow: lightgrey 2px 3px 2px;
+      }
+      .navbar-toggle{
+            float: left !important;
+            margin-top: 18px !important;
+            margin-left: 8px;
+      }
+      .header_left{
+            width: 74px !important;
+            height: 36px !important;
+            margin-left: -14px !important;
+      }
+      .input input{
+            padding-right: 4px !important;
+            min-width: 80px !important;
+            max-width: 130px !important;
+            border: 0px !important;
+      }
+}
+@media (max-width:812px){
+      .main_title{
+            display: none;
+      }
+      .main_box .main_content{
+            width: 100% !important;
+      }
+      .header_ul{
+            padding-right: 20px !important;
+      }
+      #conten_total{
+      	width: 100% !important;
+      }
+      .content_main{
+      	width: 90% !important;
+      	margin: auto;
+      }
+}
+@media (max-width:600px){
+      .model-content{
+            width: 90% !important;
+      }
+      .model_top{
+            width: 90% !important;
+      }
+      .model_top img{
+            right: 5.5% !important;
+      }
+}
+ul{
+      list-style: none;
+}
+a{
+      text-decoration: none;
+}
+input:focus{
+	outline: medium;
+}
+nav{
+      width: 100%;
+      height: 70px;
+}
+.header_left{
+      width: 100px;
+      height:50px;
+      line-height: 50px;
+      margin-top: 18px;
+      margin-left: 40px;
+}
+.header_ul{
+      padding-right: 80px;
+}
+.header_ul li{
+      text-align: center;
+      width: 120px;
+}
+.header_ul li a{
+      width: 100%;
+      line-height: 38px;
+      font-size: 15px;
+      color: black;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+}
+.hedaer_right{
+      width: 150px !important;
+      float: right;
+      height: 28px;
+      margin-right: 20px;
+      border-radius: 20px;
+      z-index: 9999999;
+      border: 1.3px solid rgba(241, 137, 0, 1);
+}
+.hedaer_right input{
+      height: 26px;
+}
+.input{
+      margin-top: 20px;
+      display: flex;
+}
+.input input{
+      height: 23px;
+      border: 1.3px solid rgba(241, 137, 0, 1);
+      text-indent: 6px;
+      font-size: 12px;
+      margin-top: 1.2px;
+      width: 110px;
+}
+.search_icons{
+      width: 26px;
+      height: 26px;
+}
+.search_icons .icon{
+      width: 100%;
+      height: 100%;
+}
+.input button{
+      outline:0;
+      border: 0;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 4px;
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 4px;
+      margin-left: -4px;
+      background: linear-gradient(to right, #ffa200, #ff6900);
+}
+.input img{
+      width: 25px;
+}
+.top_header{
+      position: relative;
+      left: 0px;
+}
+.top_header .lists{
+      cursor: pointer;
+      display: flex;
+      line-height: 46px;
+      justify-content: space-between;
+}
+.top_header .lists span{
+      font-size: 16px;
+      width: 260px;
+      padding-left: 30px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+}
+.top_header .lists img{
+      width: 20px;
+      height: 20px;
+      margin-right: 40px;
+      margin-top: 12px;
+      transform: rotate(90deg);
+      float: right;
+}
+.main_box{
+      position: absolute;
+      max-width: 1920px;
+      min-width: 300px;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
+}
+.box{
+      width: 100%;
+      height: auto;
+}
+@media (max-width: 1314px){
+      .main_box .main_title{
+            width: 20% !important;
+      }
+}
+#deletes{
+      position: absolute;
+      top: -288px;
+      right: 0;
+      z-index: 99999;
+      width: 71%;
+}
+.navbar-default .navbar-toggle{
+      border-color: #ffffff !important;
+}
+.search_icon{
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      right: 14px;
+      top: 22px;
+}
+.search_icon .icon{
+      width: 100%;
+      height: 100%;
+}
+.navbar-default .navbar-toggle:focus{
+      background-color: #ffffff;
+}
+.main_box .main_title{
+      width: 15%;
+      height: 94%;
+}
+#nav_left{
+      width: 15%;
+      height: 94%;
+      position: fixed;
+      left: 0;
+      top: 70px;
+      overflow-y: auto;
+      border-right: 1px solid lightgray;
+}
+#nav_left .list{
+      cursor: pointer;
+      width: 100%;
+      display: flex;
+      line-height: 46px;
+      justify-content: space-between;
+}
+#nav_left .list span{
+      font-size: 16px;
+      margin-left: 30px;
+      width: 180px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      font-weight: 500;
+}
+.lrotate{
+      width: 20px;
+      height: 20px;
+      margin-right: 40px;
+      margin-top: 12px;
+      transform: rotate(90deg);
+}
+#delete{
+      margin-top: 20px;
+}
+.father_title{
+      width: 100%;
+      line-height: 36px;  
+      padding-left: 20px;
+      display: flex;
+      justify-content: space-between;   
+      cursor: pointer;
+}
+.father_title p,.son_title li p{
+      width: 100%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      cursor: pointer;
+}
+.son_title li p{
+      padding-left: 20px;
+}
+.son_title{
+      width: 100%;
+      padding-left: 36px;
+      line-height: 36px;
+      display: none;
+}
+.son_title a{
+      text-decoration: none;
+      color: black;
+}
+html, body{
+      height: auto;
+}
+/* 右侧内容部分 */
+.main_box .main_content{
+      width: 85%;
+      height: 90%;
+      position: absolute;
+      top: 80px;
+      right: 0;
+      overflow-y: auto;
+}
+#conten_total{
+      width: 100%;
+      margin: auto;
+      height: 100%;
+}
+.content_main{
+      width: 60%;
+      margin: auto;
+      height: auto;
+}
+.content_top{
+      width: 100%;
+      font-size: 26px;
+      font-weight: 600;
+      display: flex;
+      justify-content: space-between;
+}
+.content_bottom{
+      width: 100%;
+}
+.content_bottom img{
+      max-width: 100%;
+}
+.content_main_box{
+      width: 100%;
+      font-size: 18px;
+}
+#de_content a{
+      text-decoration: none;
+      color: black;
+}
+/* 联想输入框 */
+.lenovo_search{
+      width: 480px;
+      max-height: 240px;
+      border: 1px solid lightgray;
+      position: fixed;
+      right: 28px;
+      top: 60px;
+      z-index: 9999;
+      border-radius: 6px;
+      display: none;
+}
+.lenovo_top{
+      width: 100%;
+      height: 36px;
+      line-height: 36px;
+      background-color: #ff6900;
+      border-top-left-radius: 4px;
+      border-top-right-radius: 4px;
+}
+.lenovo_top p {
+      padding-left: 14px;
+      color: #ffffff;
+}
+.lenovo_content{
+      width: 100%;
+      max-height: 240px;
+      background-color: #ffffff;
+      border-bottom-left-radius: 4px;
+      border-bottom-right-radius: 4px;
+      overflow: auto;
+}
+#lenovo_con{
+      width: 100%;
+      height: 100%;
+      overflow-y: auto;
+}
+#lenovo_con li{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+}
+.content_left{
+      width: 25%;
+      height: 100%;
+      text-align: center;
+      line-height: 36px;
+      background-color: #fff0e5;
+      overflow-y: auto;
+      border-right: 0.5px solid lightgray;
+}
+.content_left a{
+      text-decoration: none;
+      color: black;
+}
+.content_left ul li , .content_right ul li{
+      border-bottom: 0.5px solid lightgray;
+}
+.content_left ul li p, .content_right ul li p{
+      /* text-align: center; */
+      padding-left: 8px;
+}
+.content_right ul li p{
+      line-height: 36px;
+}
+.content_right{
+      width: 75%;
+      height: 100%;
+      background-color: #ffffff;
+      overflow-y: auto;
+}
+.content_right a{
+      text-decoration: none;
+      color: black;
+}
+@media (max-width:620px){
+      .lenovo_search{
+            width: 90% !important;
+      }
+}
+#lenovo_con .content_right li:hover{
+      cursor: auto;
+}
+#lenovo_con .content_right li:hover{
+      background-color: #ffac72;
+      cursor: pointer;
+}
+/* 蒙态框 */
+#outerdiv{
+      position: fixed;
+      top: 70px;
+      background:rgba(0,0,0,0.7);
+      z-index: 3;
+      width: 100%;
+      height: 100%;
+      display: none;
+}
+#innerdiv{
+      position: absolute;
+      top: 50px !important;
+      left: 5% !important;
+      right: 5% !important;
+      width: 90% !important;
+      height: 500px !important; 
+      text-align: center;
+      overflow: auto;
+      -webkit-overflow-scrolling: touch;
+}
+#innerdiv img{
+      width: auto !important;
+      overflow: auto;
+      text-align: center !important;
+}
